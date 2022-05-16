@@ -38,7 +38,7 @@ public:
     uint8 delayTimer = 0;
     uint8 soundTimer = 0;
     uint16 programCounter = 0x200;
-    uint8 stack[65];
+    uint16 stack[65];
     uint8 sPtr = 0; //Stack pointer
 
 
